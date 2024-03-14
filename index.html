@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">PORTFO<span>LIO</span></div>
+            <div class="menu">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-xmark" id="closed"></i>
+
+            </div>
+
+            <i class="fa-solid fa-bars" id="bar"></i>
+
+        </nav>
+
+    </header>
+
+    <section id="hero">
+        <div class="text">
+            <p>Hello, I am </p>
+            <h1>Pranav Pedhekar</h1>
+            <p>And I am a <span style="color:#e74c3c; " id="ani"></span></p>
+            <button class="c-btn">Hire Me</button>
+        </div>
+
+    </section>
+    <section id="about">
+        <div class="section-info">
+            <h1> About</h1>
+            <p>Who I am ?</p>
+        </div>
+
+        <div class="about-row">
+            <div class="about-left-col">
+                <img src="./images/pranav.png" alt="">
+            </div>
+            <div class="about-right-col">
+                <p id="p-title">Hello, I am Pranav & I am <span style="color:#e74c3c; " id="ani2"></span></p>
+                <p>Results-oriented and innovative front-end developer with 1.7 years of experience,
+                    specializing in bringing designers' concepts to life through expert utilization of
+                    HTML, CSS, JavaScript/JQuery, and other relevant front-end technologies. Proven
+                    expertise in mainstream frameworks such as React, with a focus on creating and
+                    maintaining visually stunning and highly functional websites and web application
+                    interfaces. Adept at troubleshooting issues, optimizing performance, and ensuring
+                    brand consistency throughout projects.
+                </p>
+                <button class="c-btn"><a href="./images/pranav_pedhekar_React_dev_2.pdf " Download>Download
+                        CV</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-info">
+            <h1 style="color:white;"> Skills</h1>
+            <p>My Programming Skills</p>
+        </div>
+        <div class="skills-row">
+            <div class="skills-left-col">
+                <p>As a front-end developer, I possess expertise in HTML and CSS for structuring and styling web content, complemented by proficiency in JavaScript to create engaging user experiences. I leverage frameworks such as React to expedite development processes and ensure the seamless adaptability of websites across various devices through responsive design techniques. Addressing cross-browser compatibility challenges, I am adept at version control using Git for efficient collaboration and code management.
+                </p>
+                <button class="c-btn">Download CV</button>
+            </div>
+            <div class="skills-right-col">
+                <div class="progress-div">
+                    <p>
+                        <span>HTML</span><br>
+                        <progress value="90" max="100"></progress> <span>90%</span> <br>
+                    </p>
+                    <p>
+                        <span>CSS</span><br>
+                        <progress value="80" max="100"></progress> <span>80%</span> <br>
+                    </p>
+                    <p>
+                        <span>JAVASCRIPT</span><br>
+                        <progress value="70" max="100"></progress> <span>70%</span> <br>
+                    </p>
+                    <p>
+                        <span>BOOTSTRAP</span><br>
+                        <progress value="50" max="100"></progress> <span>50%</span> <br>
+                    </p>
+                    <p>
+                        <span>REACT JS</span><br>
+                        <progress value="60" max="100"></progress> <span>60%</span> <br>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="section-info">
+            <h1> Services</h1>
+            <p>What We Provide</p>
+        </div>
+        <div class="services-row">
+            <div class="services-box" data-tilt>
+                <img src="./images/b2.png" alt="">
+                <h2>web Development</h2>
+                <p>Passionate web developer with a focus on creating dynamic and user-friendly websites and web applications.</p>
+            </div>
+            <div class="services-box" data-tilt>
+                <img src="./images/b2.png" alt="">
+                <h2>UI Development</h2>
+                <p>LDedicated UI developer with a keen eye for design and a passion for crafting seamless user experiences..</p>
+            </div>
+            <div class="services-box" data-tilt>
+                <img src="./images/b2.png" alt="">
+                <h2>React JS Application Design</h2>
+                <p>React JS application developer with a focus on building engaging and user-friendly web applications.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <div class="section-info" style="color: white;">
+            <h1>Get in Touch</h1>
+            <p style="color: black;">We are Available</p>
+        </div>
+        <div class="contact-row">
+            <div class="contact-left-col">
+                <img src="./images/b3.png" alt="">
+            </div>
+            <div class="contact-right-col">
+                <form action="">
+                    <h2>Connect with Us</h2>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email"> <br>
+                    <textarea name="" id="" cols="40" rows="10" placeholder="Message"></textarea> <br>
+                    <button class="c-btn"> Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <h2>Developed by Pranav Pedhekar</h2>
+       <div class="icons">
+        <a href="https://www.linkedin.com/in/pranav-pedhekar-5132a9174/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Pranavpedhekar/" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+       </div>
+    </section>
+    <script src="./js/jquery.ripples-min.js"></script>
+    <!-- <script>
+        jQuery(document).ready(function () {
+            $('#hero').ripples({
+                dropRadius: 20,
+                perturbance: 0.03,
+            });
+        });
+    </script>
+    <script>
+        let animate = new Typed('#ani', {
+            strings: ["Front-End Develper", "React-JS Developer", "UI Develoepr"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+    <script>
+        let animate2 = new Typed('#ani2', {
+            strings: ["Front-End Develper", "React-js Developer", "UI Develoepr"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script> -->
+    <script src="./js/tilt.jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+
+
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const open = document.getElementById('bar');
+            const closed = document.getElementById('closed');
+            const menu = document.querySelector('.menu');
+    
+            open.addEventListener('click', () => {
+                menu.classList.add('active');
+            });
+    
+            closed.addEventListener('click', () => {
+                menu.classList.remove('active');
+            });
+        });
+    </script> -->
+
+
+</body>
+
+</html>
