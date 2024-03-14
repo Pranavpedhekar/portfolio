@@ -102,6 +102,8 @@ i{
 /* about section */
 #about{
     padding: 100px 50px;
+    color: white;
+    background-color: #081b29;
 }
 
 .section-info{
@@ -200,6 +202,8 @@ progress{
 
 #services{
     padding: 100px 50px;
+    color: white;
+    background-color: #081b29;
 }
 
 .services-row{
@@ -229,7 +233,7 @@ progress{
 
 #contact{
     padding: 100px 50px;
-    background: linear-gradient(160deg,#e74c3c 45%, white 0% );
+    background: linear-gradient(160deg,#e74c3c 45%, #081b29 0% );
 }
 .contact-row{
     display: flex;
