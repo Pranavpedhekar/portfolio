@@ -28,8 +28,9 @@
 .menu{
     padding-right: 100px;
 }
-.menu a:hover{
-    background: #e74c3c;
+
+.menu  a:hover{
+    background: #e74d3c80;
     transition: 0.4;
 }
 nav{
@@ -95,8 +96,23 @@ i{
     border: none;
     outline: none;
     background: #e74c3c;
-    padding: 10px;
+    padding: 10px 30px;
     margin-top: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.c-btn:hover{
+    background: #e74d3c96;
+    transition: 0.4;
+
+}
+
+
+h2{
+    color: white;
 }
 
 /* about section */
