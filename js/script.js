@@ -34,3 +34,31 @@ let animate2 = new Typed('#ani2', {
     backSpeed: 100,
     loop: true
 })
+// Preloader code
+let loader = document.getElementById("preloader");
+window.addEventListener("load", ()=>{
+    setTimeout(()=>{
+        loader.style.display="none"
+
+    },5000)
+    
+})
+// active navbar
+
+let section = document.querySelectorAll('section');
+let navlinks = document.querySelectorAll('header nav div a ')
+window.onscroll = ()=>{
+    section.forEach(sec =>{
+        let top =window.scrollY;
+        let offset =sec.offsetTop - 150;
+        let height =sec.offsetHeight;
+        let id = sec.getAttribute('id');
+        if(top >= offset && top < offset +height){
+            navlinks.forEach(links =>{
+                links.classList.remove('active')
+                document.querySelector('header nav div a[href*='+ id +']').classList.add('active');
+            })
+
+        }
+    })
+}

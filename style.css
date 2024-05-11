@@ -4,6 +4,25 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
+/* body{
+    position: relative;
+} */
+#preloader{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262e41;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+}
+
+#preloader img{
+    width: 500px;
+
+}
 
 
 
@@ -25,14 +44,19 @@
     font-size: 20px;
     font-weight: bold;
 }
+header{
+    position: relative;
+}
 .menu{
     padding-right: 100px;
+    
 }
 
-.menu  a:hover{
+.menu  a:hover, .menu a.active{
     background: #e74d3c80;
     transition: 0.4;
 }
+ 
 nav{
     width: 100%;
     height: 70px;
@@ -42,7 +66,7 @@ nav{
     background-color: black;
     position: fixed;
     top: 0;
-    z-index: 999;
+    z-index: 1;
     background: url(./images/bg1.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -535,3 +559,4 @@ progress{
         
     }
 }
+
