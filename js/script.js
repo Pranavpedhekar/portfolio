@@ -62,3 +62,7 @@ window.onscroll = ()=>{
         }
     })
 }
+
+let sub_btn = document.getElementById("s-btn");
+let inputfilled = document.querySelectorAll(".remove");
+sub_btn.addEventListener("click", ()=> inputfilled.values=" ")

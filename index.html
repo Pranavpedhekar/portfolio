@@ -146,12 +146,13 @@
                 <img src="./images/b3.png" alt="">
             </div>
             <div class="contact-right-col">
-                <form action="">
+                <form action="https://api.web3forms.com/submit" method="POST">
                     <h2>Connect with Us</h2>
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email"> <br>
-                    <textarea name="" id="" cols="40" rows="10" placeholder="Message"></textarea> <br>
-                    <button class="c-btn"> Submit</button>
+                    <input type="hidden" name="access_key" value="80d4b763-63bb-4d93-a26f-090f43f5ed89">
+                    <input type="text" class="remove" name="name" required placeholder="Name">
+                    <input type="email" class="remove" name="email" required placeholder="Email"> <br>
+                    <textarea  name="message" class="remove" required cols="40" rows="10" placeholder="Message"></textarea> <br>
+                    <button class="c-btn" id="s-btn"> Submit</button>
                 </form>
             </div>
         </div>
@@ -165,6 +166,7 @@
        </div>
     </section>
     <script src="./js/jquery.ripples-min.js"></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
     <!-- <script>
         jQuery(document).ready(function () {
             $('#hero').ripples({
