@@ -22,14 +22,14 @@ jQuery(document).ready(function () {
 });
 
 let animate = new Typed('#ani', {
-    strings: ["Front-End Developer", "React-JS Developer", "UI Develoepr"],
+    strings: ["Front-End Developer", "React-JS Developer", "UI Developer"],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true
 })
 
 let animate2 = new Typed('#ani2', {
-    strings: ["Front-End Developer", "React-JS Developer", "UI Develoepr"],
+    strings: ["Front-End Developer", "React-JS Developer", "UI Developer"],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true
